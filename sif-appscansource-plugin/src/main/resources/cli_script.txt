@@ -1,0 +1,3 @@
+login ${ASSE_URL} ${ASSE_UNAME} ${ASSE_PWORD} -acceptssl
+oa "${APP_NAME}"
+sc "${ASSESSMENT_FILE}" -scanconfig "${SCAN_CONFIGURATION}"
