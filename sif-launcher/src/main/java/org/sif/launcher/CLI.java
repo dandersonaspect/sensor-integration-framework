@@ -89,8 +89,8 @@ public class CLI implements Notifier
 	public void process() throws Exception
 	{
 		Job job = new Job();
+		// Dynamically load the requested service class and instantiate it.
 		// Notifier notifier = framework.getNotifier( notifierClass );
-		AppScanSourcePlugin asse = new AppScanSourcePlugin();
 		Notifier notifier = this;
 
 		if ( command == null )
@@ -104,8 +104,8 @@ public class CLI implements Notifier
 
 		if ( command.equals( "sense" ) )
 		{
-			// Sensor sensor = framework.getSensor(serviceProviderClass);
-			Sensor sensor = asse;
+			// Dynamically load the requested service class and instantiate it.
+			Sensor sensor = framework.getSensor(serviceProviderClass);
 			if ( sensor == null )
 			{
 				throw new IllegalArgumentException( "Unknown sense serviceProviderClass:" + serviceProviderClass );
@@ -115,9 +115,8 @@ public class CLI implements Notifier
 		}
 		else if ( command.equals( "publish" ) )
 		{
-			// Publisher publisher =
-			// framework.getPublisher(serviceProviderClass);
-			Publisher publisher = asse;
+			// Dynamically load the requested service class and instantiate it.
+			Publisher publisher = framework.getPublisher(serviceProviderClass);
 			if ( publisher == null )
 			{
 				throw new IllegalArgumentException( "Unknown publish serviceProviderClass:" + serviceProviderClass );
