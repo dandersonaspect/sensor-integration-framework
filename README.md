@@ -1,6 +1,6 @@
 # [Sensor Integration Framework](https://github.com/aspectsecurity/sensor-integration-framework)
 
-Sensor Integration Framework is a framework that can be used to integrate software test tools in a continuous integration (CI) environment.  Most of the CI solutions you can get will integrate easily with popular unit testing frameworks.  They will probably not integrate easily with commercial static analysis tools, for example.  This project is meant to make that integration job much easier.  SIF is being developed by the [core team](https://github.com/orgs/twbs/people) with the support and involvement of the community.
+Sensor Integration Framework is a framework that can be used to integrate software test tools in a continuous integration (CI) environment.  Most of the CI solutions you can get will integrate easily with popular unit testing frameworks.  They will probably not integrate easily with commercial static analysis tools, for example.  This project is meant to make that integration job much easier.  SIF is being developed by the [core team](https://github.com/aspectsecurity/sensor-integration-framework/people) with the support and involvement of the community.
 
 We aim to release SIF 1.0 by March 2015.
 
@@ -39,8 +39,7 @@ Have a bug or a feature request? Please first read the [issue guidelines](https:
 
 ## Documentation
 
-Bootstrap's documentation is under furious development.
-
+SIF documentation is under furious development.
 
 
 ## Contributing
@@ -69,7 +68,15 @@ SIF is maintained under [the Semantic Versioning guidelines](http://semver.org/)
 
 **Kofi Bonney**
 
+- <https://github.com/kbonneyAspectSecurity>
+
+**Stefan Edwards**
+
+- <https://github.com/stefanaspect>
+
 **Kevin Fealey**
+
+- <https://github.com/kevinfealey>
 
 **Will Frontiero**
 

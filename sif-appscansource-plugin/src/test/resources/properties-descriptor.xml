@@ -1,0 +1,74 @@
+<properties>
+	<property name="ase.url">
+		<encrypted>true</encrypted>
+		<required>true</required>
+		<environment>true</environment>
+		<description>The URL for AppScan Enterprise</description>		
+	</property>
+	<property name="ase.username">
+		<encrypted>true</encrypted>
+		<required>true</required>
+		<environment>true</environment>
+		<description>The username to be used to authenticate to AppScan Enterprise</description>		
+	</property>
+	<property name="ase.password">
+		<encrypted>true</encrypted>
+		<required>true</required>
+		<environment>true</environment>
+		<description>The password to be used to authenticate to AppScan Enterprise</description>		
+	</property>
+	<property name="ase.acceptSsl">
+		<encrypted>true</encrypted>
+		<required>false</required>
+		<environment>true</environment>
+		<description>Whether to ignore SSL certificate errors when authenticating to AppScan Enterprise</description>		
+	</property>
+	<property name="asse.dir">
+		<encrypted>false</encrypted>
+		<required>true</required>
+		<environment>false</environment>
+		<description>The directory containing the AppScan Source installation</description>		
+	</property>
+	<property name="ase.dir">
+		<encrypted>false</encrypted>
+		<required>true</required>
+		<environment>false</environment>
+		<description>The directory containing the AppScan Enterprise installation</description>		
+	</property>
+	<property name="scanWorkspace.dir">
+		<encrypted>false</encrypted>
+		<required>true</required>
+		<environment>true</environment>
+		<description>Scan results and other scan artifacts will be written in this directory</description>		
+	</property>
+	<property name="assessment.file">
+		<encrypted>false</encrypted>
+		<required>true</required>
+		<environment>true</environment>
+		<description>Scan results will be written to this file in the scan workspace directory</description>		
+	</property>
+	<property name="applicationName">
+		<encrypted>false</encrypted>
+		<required>true</required>
+		<environment>true</environment>
+		<description>The name of the PAF file for the project to be scanned</description>		
+	</property>
+	<property name="asse.scanConfiguration">
+		<encrypted>false</encrypted>
+		<required>false</required>
+		<environment>true</environment>
+		<description>The name of one of the Scan Configurations made available by AppScan Source</description>		
+	</property>
+	<property name="ase.target.dir">
+		<encrypted>false</encrypted>
+		<required>true</required>
+		<environment>true</environment>
+		<description>The scan results will be published into this folder on the AppScan Enterprise server</description>		
+	</property>
+	
+</properties>
+<propertiesFiles>
+	<propertiesFile name="default.properties"></propertiesFile>
+	<propertiesFile name="global.properties" overrides="default.properties"></propertiesFile>
+	<propertiesFile name="job.properties" overrides="global.properties"></propertiesFile>
+</propertiesFile>

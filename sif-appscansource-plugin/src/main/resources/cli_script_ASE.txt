@@ -1,0 +1,3 @@
+login ${ASSE_URL} ${ASSE_UNAME} ${ASSE_PWORD} -acceptssl
+SASE -u ${ASE_UNAME} -p ${ASE_PWORD} -d ${ASE_DOMAIN} -l ${ASE_URL}
+PASE ${ASSESSMENT_FILE} -folderid ${PUBLISH_FOLDER_ID}
