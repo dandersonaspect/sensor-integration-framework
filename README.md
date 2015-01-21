@@ -30,8 +30,6 @@ Framework plugins should extend Sensor and/or Publisher.  An AppScan Source plug
 
 The Framework is designed to be integrated into a CI tool.  CLI and Jenkins plugin launchers will be in 1.0.
 
-We provide compiled CSS and JS (`bootstrap.*`), as well as compiled and minified CSS and JS (`bootstrap.min.*`). CSS [source maps](https://developers.google.com/chrome-developer-tools/docs/css-preprocessors) (`bootstrap.*.map`) are available for use with certain browsers' developer tools. Fonts from Glyphicons are included, as is the optional Bootstrap theme.
-
 
 
 ## Bugs and feature requests
