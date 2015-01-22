@@ -22,7 +22,7 @@ Four quick start options are available:
 - Download the latest release - NOT YET.
 - Clone the repo: `git clone https://github.com/aspectsecurity/sensor-integration-framework`.
 
-Read the [Getting started page](https://github.com/aspectsecurity/sensor-integration-framework/Getting-Started.md) for information on the framework design and build process.
+Read the [Getting started page](https://github.com/aspectsecurity/sensor-integration-framework/blob/master/Getting-Started.md) for information on the framework design and build process.
 
 ### What's included
 
